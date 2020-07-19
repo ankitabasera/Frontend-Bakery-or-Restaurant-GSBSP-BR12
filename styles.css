@@ -118,12 +118,12 @@ ul.CTAs a {
     margin-bottom: 5px;
 }
 
-a.download {
+a.feedback{
     background: #898989;
     color: #fff;
 }
 
-a.article, a.article:hover {
+a.location, a.location:hover {
     background: #898989 !important;
     color: #fff !important;
 }
