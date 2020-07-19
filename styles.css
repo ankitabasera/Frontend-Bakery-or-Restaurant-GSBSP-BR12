@@ -1,6 +1,7 @@
 body {
     background: #D4B483;
 	color: #894747;
+	
 }
 
 
@@ -11,7 +12,6 @@ a, a:hover, a:focus {
 }
 
 .navbar {
-    
     background: #c29550;
     border: none;
     border-radius: 0;
@@ -118,19 +118,30 @@ ul.CTAs a {
     margin-bottom: 5px;
 }
 
-a.feedback{
+a.feedback {
     background: #898989;
     color: #fff;
 }
 
-a.location, a.location:hover {
-    background: #898989 !important;
-    color: #fff !important;
-}
+
 
 
 
 /* ---------------------------------------------------CONTENT STYLE---------------------------------------------------- */
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+
+.img-hover-zoom img {
+  transition: transform .4s ease;
+}
+
+
+.img-hover-zoom:hover img {
+  transform: scale(1.4);
+}
 #content {
     width: 100%;
     padding: 20px;
@@ -187,37 +198,18 @@ h1{
   
 }
 .wrapper .sidebar-header img{
-	max-width: 5vw;
+	max-width: 6vmax;
 	width:100%;
-	max-height: 5vw;
+	max-height: 6vmax;
 	height: 100%;
 }
-/*.images .tog{
-	float: right;
+.nav-link img{
+	max-width: 3vmax;
+	width:100%;
+	max-height: 3vmax;
+	height: 100%;	
 }
 
-.images .ice{
-	max-width:30vw;
-	width: 100%;
-	height: 48vmin;
-	margin: 0.375vw;
-	float: right;
-}
-.images .liqour{
-	max-width: 30vw;
-	width: 100%;
-	height: 48vmin;
-	float:right;
-	margin: 0.375vw;
-	
-}
-.images .noodles{
-	
-	max-width: 43vw;
-	width: 100%;
-	margin: 0.375vw;
-	height: 100vmin;
-}*/
 .image-grid{
 	overflow-x: hidden;
 }
@@ -272,9 +264,46 @@ h1{
 	margin: 2vw 0px;
 	font-size:2vw;
 }
-.page-footer{
+.page-footer .container{
 	background-color:#c29550;
 	margin-top: 10vw;
+}
+
+
+.testimonial {
+	background-image: url("bg.jpg");
+	
+}
+ .img-impressive .black{
+	margin:2vw 4vw;
+}
+.motivation {
+  margin-top: 5vw;
+  font-size:4vw;
+  max-width:75vw;
+  z-index:0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loccon{
+	height: 50vmin;
+	width: 70vw;
+	margin: 5vmin auto;
+	background-image: url("Subtle Grey Grunge Texture.png");
+	
+}
+.contact-us{
+	float: left;
+	height: 40vmin;
+	margin: 0 auto;
+	width:30vmin;
+}
+.location{
+	float: right;
+	height: 40vmin;
+	margin: 0 auto;
+	width:35vmin;
 }
 
 
