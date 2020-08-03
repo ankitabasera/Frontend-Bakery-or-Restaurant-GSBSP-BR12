@@ -354,8 +354,7 @@ h1{
 	.carousel-inner{
 	  width:90%;
 	  height: 300px;
-	  
-	  margin: 0 auto;
+	  left: 5%;
 	  /*max-height: 70vmin !important;*/
 	}
 
