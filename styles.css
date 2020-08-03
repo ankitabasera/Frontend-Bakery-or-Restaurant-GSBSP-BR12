@@ -364,20 +364,20 @@ h1{
 	width: 100%;
 	float : none;
 	margin: 10px auto;
-}
-.menu-content{
-	margin: 10px auto;
-	font-size:20px;
-	float : none;
-}
-.menu-cuisine{
-	height:400px;
-	width: 70vw;
-	
-}
-.menu-cuisine h3{
-	font-size: 30px;
-	margin: 5px auto;
+	}
+	.menu-content{
+		margin: 10px auto;
+		font-size:20px;
+		float : none;
+	}
+	.menu-cuisine{
+		height:500px;
+		width: 70vw;
 
-}
+	}
+	.menu-cuisine h3{
+		font-size: 30px;
+		margin: 5px auto;
+
+	}
 }
