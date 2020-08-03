@@ -358,19 +358,26 @@ h1{
 	  /*max-height: 70vmin !important;*/
 	}
 	.menu-picture img{
-	max-height: 100px;
+	max-height: 200px;
 	height: 100%;
 	max-width: 100px;
-	width: 100%;
-	margin: 2vw 0;
+	width: 200%;
 	float : none;
-	margin: 2vw auto;
+	margin: 10px auto;
 }
 .menu-content{
-	margin: 2vw auto;
+	margin: 10px auto;
 	font-size:20px;
 	float : none;
 }
+.menu-cuisine{
+	height:500px;
+	width: 70vw;
+	
+}
+.menu-cuisine h3{
+	font-size: 30px;
+	margin: 5px auto;
 
-
+}
 }
