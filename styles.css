@@ -354,9 +354,23 @@ h1{
 	.carousel-inner{
 	  width:90%;
 	  height: 300px;
-	  left: 5%;
+	  right: 5%;
 	  /*max-height: 70vmin !important;*/
 	}
+	.menu-picture img{
+	max-height: 100px;
+	height: 100%;
+	max-width: 100px;
+	width: 100%;
+	margin: 2vw 0;
+	float : none;
+	margin: 2vw auto;
+}
+.menu-content{
+	margin: 2vw auto;
+	font-size:20px;
+	float : none;
+}
 
 
 }
