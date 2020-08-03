@@ -336,5 +336,21 @@ h1{
     #sidebarCollapse.active span:last-of-type {
         transform: rotate(-45deg) translate(1px, -1px);
     }
+	.img-responsive {
+	max-width: 600px;
+	width:100%;
+	
+	padding-top: 3vw;
+	height: 500px;
+	}
+	.larger .img-responsive {
+		max-width: 600px;
+		width:100%;
+		padding-top: 3vw;
+		padding-bottom: 5vw;
+		
+		height:500px;
+	}
+	
 
 }
