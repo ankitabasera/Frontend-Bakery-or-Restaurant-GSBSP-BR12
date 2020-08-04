@@ -347,6 +347,26 @@ h1{
     #sidebarCollapse.active span:last-of-type {
         transform: rotate(-45deg) translate(1px, -1px);
     }
+    h1{
+	  
+	  font-size:30px;
+	  color:  #894747;
+	}
+	.about{
+  
+	  font-size:20px;
+	  max-width:80vw;
+	  z-index:1;
+	  display: block;
+	  margin: 10px auto;
+	  
+	}
+	.menu{
+	font-size:20px;
+	margin-top: 10px auto;
+	z-index:1;
+	display: block;
+	}
 	.img-responsive {
 	max-width: 300px;
 	width:100%;
