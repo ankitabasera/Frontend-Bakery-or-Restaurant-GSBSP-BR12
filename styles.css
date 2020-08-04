@@ -392,10 +392,10 @@ h1{
 	  
 	  /*max-height: 70vmin !important;*/
 	}
-	.carousel .item {
+	.carousel-item {
            height: 500px;
          }
-	.item img {
+	.carousel-item img {
     position: absolute;
     top: 0;
     left: 0;
