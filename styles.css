@@ -393,17 +393,17 @@ h1{
 	  /*max-height: 70vmin !important;*/
 	}
 	.carousel-item {
-           height: 500px;
+           height: 400px;
          }
 	.carousel-item img {
 	    position: absolute;
 	    top: 0;
 	    left: 0;
-	    min-height: 500px;
+	    min-height: 400px;
 	}
-	.carousel-control-prev, .carousel-control-next{
+	/*.carousel-control-prev, .carousel-control-next{
 	      bottom: 50%;
-	}
+	}*/
 	.testimonial .carousel-inner{
 	  width:80%;
 	  margin: 5px auto;
