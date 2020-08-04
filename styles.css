@@ -213,6 +213,7 @@ h1{
 .image-grid{
 	overflow-x: hidden;
 }
+/* photos  */
 .img-responsive {
 	max-width: 24vw;
 	width:100%;
@@ -232,11 +233,21 @@ h1{
 /*.tales {
   width: 80%;
 }*/
+/* carousel */
 .carousel-inner{
   width:80%;
-  left: 10%;
+  height: 600px;
+  margin: 0 auto;
   /*max-height: 70vmin !important;*/
 }
+.testimonial .carousel-inner{
+  width:25%;
+  height: 300px;
+  margin: 0 auto;
+  /*max-height: 70vmin !important;*/
+}
+
+/* menu */
 .menu{
 	font-size:2vw;
 	margin-top: 3vw 0;
@@ -352,33 +363,37 @@ h1{
 		height:100%;
 	}
 	.carousel-inner{
-	  width:90%;
-	  height: 300px;
-	  left: 5%;
-	  /*max-height: 70vmin !important;*/
-	}
-	.menu-picture img{
+  width:90%;
+  left: 5%;
+  height: 300px;
+  /*max-height: 70vmin !important;*/
+}
+		
+
+.menu-picture img{
 	margin: 10px auto;
 	max-height: 200px;
 	height: 100%;
-	max-width: 200px;
-	width: 100%;
+	max-width: 100px;
+	width: 200%;
 	float : none;
 	
-	}
-	.menu-content{
-		margin: 10px auto;
-		font-size:20px;
-		float : none;
-	}
-	.menu-cuisine{
-		height:500px;
-		width: 70vw;
+}
+.menu-content{
+	margin: 10px auto;
+	font-size:20px;
+	float : none;
+}
+.menu-cuisine{
+	height:500px;
+	width: 70vw;
+	
+}
+.menu-cuisine h3{
+	margin: 5px auto;
+	font-size: 30px;
+	
 
-	}
-	.menu-cuisine h3{
-		font-size: 30px;
-		margin: 5px auto;
+}
 
-	}
 }
