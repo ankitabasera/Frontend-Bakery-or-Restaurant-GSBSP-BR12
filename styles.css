@@ -368,6 +368,13 @@ h1{
 	  height: 300px;
 	  /*max-height: 70vmin !important;*/
 	}
+	
+	.testimonial .carousel-inner{
+	  width:90%;
+	  margin: 5px auto;
+	  height: 300px;
+	  /*max-height: 70vmin !important;*/
+	}
 		
 
 .menu-picture img{
