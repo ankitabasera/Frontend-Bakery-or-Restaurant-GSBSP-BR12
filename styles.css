@@ -363,19 +363,19 @@ h1{
 		height:100%;
 	}
 	.carousel-inner{
-  width:90%;
-  left: 5%;
-  height: 300px;
-  /*max-height: 70vmin !important;*/
-}
+	  width:90%;
+	  margin: 5px auto;
+	  height: 300px;
+	  /*max-height: 70vmin !important;*/
+	}
 		
 
 .menu-picture img{
 	margin: 10px auto;
 	max-height: 200px;
 	height: 100%;
-	max-width: 100px;
-	width: 200%;
+	max-width: 200px;
+	width: 100%;
 	float : none;
 	
 }
