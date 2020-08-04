@@ -354,7 +354,7 @@ h1{
 	.carousel-inner{
 	  width:90%;
 	  height: 300px;
-	  right: 5%;
+	  left: 5%;
 	  /*max-height: 70vmin !important;*/
 	}
 	.menu-picture img{
