@@ -358,12 +358,13 @@ h1{
 	  /*max-height: 70vmin !important;*/
 	}
 	.menu-picture img{
+	margin: 10px auto;
 	max-height: 200px;
 	height: 100%;
 	max-width: 200px;
 	width: 100%;
 	float : none;
-	margin: 10px auto;
+	
 	}
 	.menu-content{
 		margin: 10px auto;
