@@ -389,9 +389,12 @@ h1{
 	.carousel-inner{
 	  width:100%;
 	  margin: 5px auto;
-	  height: 500px;
+	  
 	  /*max-height: 70vmin !important;*/
 	}
+	.carousel .item {
+           height: 500px;
+         }
 	
 	.testimonial .carousel-inner{
 	  width:80%;
