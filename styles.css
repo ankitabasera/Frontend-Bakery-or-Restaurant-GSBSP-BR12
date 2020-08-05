@@ -396,6 +396,7 @@ h1{
 	.my-slider .carousel-inner{
 	  width:100%;
 	  margin: 5px auto;
+	  height: 420px;
 	  /*max-height: 70vmin !important;*/
 	}
 	.my-slider .carousel-item {
