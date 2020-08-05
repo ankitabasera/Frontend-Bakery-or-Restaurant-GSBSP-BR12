@@ -439,15 +439,12 @@ h1{
 }
 .menu-cuisine{
 	height:500px;
-	width: 70vw;
+	width: 100vw;
 	
 }
 .menu-cuisine h3 center{
 	margin: 5px auto;
 	font-size: 25px;
-	width: 100%;
-	
-
 }
 
 }
