@@ -364,7 +364,7 @@ h1{
 	  margin: 10px auto;
 	  
 	}
-	.about h2{
+	.about h2 center{
 		font-size: 25px;
 	}
 	.menu{
@@ -373,7 +373,7 @@ h1{
 	z-index:1;
 	display: block;
 	}
-	.menu h2{
+	.menu h2 center{
 		font-size: 25px;
 	}
 	
@@ -384,14 +384,14 @@ h1{
 	padding-top: 3vw;
 	height: 100%;
 	}
-	/*.larger .img-responsive {
-		max-width: 300px;
+	.larger .img-responsive {
+		max-width: 250px;
 		width:100%;
 		padding-top: 3vw;
 		padding-bottom: 5vw;
 		max-height: 200px;
 		height:100%;
-	}*/
+	}
 	.my-slider .carousel-inner{
 	  width:100%;
 	  margin: 5px auto;
@@ -408,7 +408,7 @@ h1{
 	}
 	.my-slider .carousel-control-prev-icon, .my-slider .carousel-control-next-icon
 	{
-		bottom: 20%;
+		bottom: 50%;
 	}
 	
 	
@@ -418,14 +418,17 @@ h1{
 	  height: 300px;
 	  /*max-height: 70vmin !important;*/
 	}
+	.motivation center{
+		font-size: 25px;
+	}
 		
 
 .menu-picture img{
 	margin: 10px auto;
 	max-height: 200px;
 	height: 100%;
-	max-width: 100px;
-	width: 200%;
+	max-width: 200px;
+	width: 100%;
 	float : none;
 	
 }
