@@ -425,13 +425,13 @@ h1{
 		
 
 .menu-picture img{
-	margin: 10px auto;
 	max-height: 200px;
 	height: 100%;
 	max-width: 200px;
 	width: 100%;
 	float : none;
-	
+	left: 50%;
+	position:absolute;
 }
 .menu-content{
 	margin: 10px auto;
