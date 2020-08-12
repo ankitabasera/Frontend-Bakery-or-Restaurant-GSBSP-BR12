@@ -294,10 +294,15 @@ h1{
 	background-color:#c29550;
 	margin-top: 10vw;
 }
-
+.menu .container center img{
+	height: 200px;
+	width: 300px;
+	border-radius: 10%;
+}
 
 .testimonial {
-	background-image: url("images/50 Mobile, Laptop and Desktop Wallpaper HD (High Resolution).png");
+	background-image: url("images/download.jpg");
+	background-size: cover;
 	
 }
  .img-impressive .black{
@@ -312,7 +317,7 @@ h1{
   margin-left: auto;
   margin-right: auto;
 }
-.loccon{
+.page-footer{
 	height: 50vmin;
 	width: 70vw;
 	margin: 5vmin auto;
@@ -331,9 +336,14 @@ h1{
 	margin: 0 auto;
 	width:35vmin;
 }
-
 /* ---------------------------------------------------MEDIAQUERIES----------------------------------------------------- */
 @media (max-width: 768px) {
+	body{
+		background-image: url("images/download (1).jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
     #sidebar {
         margin-left: -250px;
         transform: rotateY(90deg);
