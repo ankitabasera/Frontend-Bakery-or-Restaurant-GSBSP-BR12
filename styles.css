@@ -321,11 +321,11 @@ h1{
 	height: 40vmin;
 	margin: 0 auto;
 	width:35vmin;
-}
+}phpic
 /* ---------------------------------------------------MEDIAQUERIES----------------------------------------------------- */
 @media (max-width: 768px) {
 	body{
-		background-image: url("images/download (1).jpg");
+		background-image: url("images/phpic.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
