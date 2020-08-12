@@ -1,10 +1,12 @@
 body {
-    background: #D4B483;
 	color: #894747;
 	overflow-x: hidden;
-	
+    /*background: #D4B483;*/
+	background-image: url('images/(+14) Of Cool Dark Hd Wallpapers For Mobile 2K.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;	
 }
-
 
 a, a:hover, a:focus {
     color: inherit;
@@ -13,11 +15,13 @@ a, a:hover, a:focus {
 }
 
 .navbar {
-    background: #c29550;
-    border: none;
+	border: none;
     border-radius: 0;
     margin-bottom: 40px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    /*background: #c29550;*/
+	background-color: transparent;
+    
 }
 
 .navbar-btn {
@@ -46,10 +50,14 @@ a, a:hover, a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background-color:  #c29550;
-    color: #E4DFDA;
+	color: #E4DFDA;
     transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
     transform-origin: bottom left;
+    /*background-color:  #c29550;*/
+	background-color: transparent;
+	
+	
+    
 	
 }
 
@@ -60,7 +68,8 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #898989;
+    /*background: #898989;*/
+	background-color: transparent;
 }
 
 #sidebar ul.components {
@@ -257,6 +266,8 @@ h1{
 	margin-top: 3vw 0;
 	z-index:0;
 	display: block;
+	background-repeat: no-repeat;
+	background-size:cover;
 }
  li {
 	font-family: pacifico;
@@ -286,7 +297,7 @@ h1{
 
 
 .testimonial {
-	background-image: url("images/bg.jpg");
+	background-image: url("images/50 Mobile, Laptop and Desktop Wallpaper HD (High Resolution).png");
 	
 }
  .img-impressive .black{
@@ -305,7 +316,7 @@ h1{
 	height: 50vmin;
 	width: 70vw;
 	margin: 5vmin auto;
-	/*background-image: url("Subtle Grey Grunge Texture.png");*/
+	background-image: url("images/download (1).jpg");*/
 	
 }
 .contact-us{
@@ -320,7 +331,6 @@ h1{
 	margin: 0 auto;
 	width:35vmin;
 }
-
 
 /* ---------------------------------------------------MEDIAQUERIES----------------------------------------------------- */
 @media (max-width: 768px) {
