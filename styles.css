@@ -383,6 +383,7 @@ h1{
 	margin-top: 10px auto;
 	z-index:1;
 	display: block;
+	overflow-x: hidden;
 	}
 	.menu h2 center{
 		font-size: 25px;
