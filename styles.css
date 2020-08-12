@@ -287,7 +287,7 @@ h1{
 }
 
 .testimonial {
-	background-image: url("images/download.jpg");
+	background-image: url("images/Abstract wallpaper by Victoria0802 - 4f - Free on ZEDGE™.jpg");
 	background-size: cover;
 	
 }
@@ -325,7 +325,7 @@ h1{
 /* ---------------------------------------------------MEDIAQUERIES----------------------------------------------------- */
 @media (max-width: 768px) {
 	body{
-		background-image: url("images/phpic.jpg");
+		background-image: url("images/5.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
