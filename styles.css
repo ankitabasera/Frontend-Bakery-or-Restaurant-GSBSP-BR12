@@ -325,7 +325,7 @@ h1{
 /* ---------------------------------------------------MEDIAQUERIES----------------------------------------------------- */
 @media (max-width: 768px) {
 	body{
-		background-image: url("images/phonebg.jpg");
+		background-image: url("images/phpic.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
