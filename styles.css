@@ -262,7 +262,7 @@ h1{
 }
 /* menu */
 .menu{
-	font-size:2vw;
+	font-size: 20px;
 	margin-top: 3vw 0;
 	z-index:0;
 	display: block;
@@ -270,11 +270,12 @@ h1{
 	background-size:cover;
 	color:  #585858;
 	height: 1800px;
+	width: 100%;
 }
 .menu h2{
 	font-size: 60px;
 	position: relative;
-	left: 300px;
+	
 	top: 80px;
 	font-family: pacifico;
 	margin-bottom: 100px;
@@ -285,6 +286,9 @@ h1{
 	list-style-type:none;
 	color:  #585858;
 }
+.menu .container .row {
+	margin: 40px auto;
+	}
 
 .page-footer .container{
 	background-color:#c29550;
@@ -295,11 +299,11 @@ h1{
 	position: relative;
 	left: 100px;
 	width: 220px;
-	border-radius: 10%;
+	border-radius: 50%;
 }
 
 .testimonial {
-	background-image: url("images/Abstract wallpaper by Victoria0802 - 4f - Free on ZEDGE™.jpg");
+	background-image: url("images/Highly textured “Portsmouth” background.jpg");
 	background-size: cover;
 	
 }
@@ -341,6 +345,7 @@ h1{
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
+		width: 100%;
 	}
     #sidebar {
         margin-left: -250px;
@@ -349,7 +354,7 @@ h1{
     #sidebar.active {
         margin-left: 0;
         transform: none;
-    }
+    }file:///C:/Users/ADMIN/Desktop/Frontend-Bakery-or-Restaurant-GSBSP-BR12/images/italian.jpg
     #sidebarCollapse span:first-of-type,
     #sidebarCollapse span:nth-of-type(2),
     #sidebarCollapse span:last-of-type {
@@ -392,6 +397,7 @@ h1{
 	z-index:1;
 	display: block;
 	overflow-x: hidden;
+	background-size: contain;
 	}
 	.menu h2 center{
 		font-size: 25px;
