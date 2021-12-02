@@ -1,5 +1,5 @@
 body {
-	color: #C0C0C0;
+	color: #1c1a1a;
 	overflow-x: hidden;
     /*background: #D4B483;*/
 	background-image: url('images/pexels-juan-pablo-serrano-arenas-1242348.jpg');
@@ -50,7 +50,7 @@ a, a:hover, a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-	color: #E4DFDA;
+	color: #21201e;
     transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
     transform-origin: bottom left;
     /*background-color:  #c29550;*/
